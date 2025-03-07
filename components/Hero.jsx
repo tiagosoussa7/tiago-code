@@ -118,7 +118,7 @@ export const Hero = () => {
         </div>
         {/** icon */}
         <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
-          <RiArrowDownSFill className="text-3xl text-primary" />
+          <RiArrowDownSFill className="text-2xl text-primary" />
         </div>
       </div>
     </section>
