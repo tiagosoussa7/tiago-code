@@ -8,7 +8,12 @@ export const ThemeToggler = () => {
   const { theme, setTheme } = useTheme();
   return (
     <div>
-      <Button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+      <Button
+        variant="outline"
+        size="icon"
+        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+        className="rounded-full text-primary"
+      >
         <SunIcon
           className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all
         dark:-rotate-90 dark:scale-0"
